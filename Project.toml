@@ -1,0 +1,13 @@
+name = "NumericalTools"
+uuid = "d3bd0321-2dd3-4478-9e25-86822b5444b2"
+authors = ["Daniel Marvin"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
