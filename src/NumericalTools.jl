@@ -7,7 +7,7 @@ module NumericalTools
 function splitdigits(N::Int64; reversedigits=true)
     digits = Int64[]
     
-    k = N
+    k = abs(N)
     while k > 0
         c = k % 10
         push!(digits, c)
